@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JylaSwiftSpinLaundry -Affordable laundry care in Ghana</title>
+
+       <!-- Description -->
+<meta name="description" content="At Jylaswiftspin Laundry, we believe clean clothes bring confidence and comfort. Our service is designed to make laundry stress-free, combining speed, quality, and care. From everyday wear to delicate fabrics, we handle each item with precision, ensuring your clothes come back spotless, fresh, and neatly folded.">
+
+<!-- keywords -->
+<meta name="keywords" content="Laundry services,Dry cleaning,Wash and fold,Affordable laundry,Express laundry,Professional laundry care,Fabric care,Laundry pickup,Laundry delivery,Eco-friendly laundry,Student laundry service,Family laundry solutions,Fast turnaround,Reliable laundry,Local laundry business">
+
+<!-- open Graph / Facebook Meta tags -->
+<meta property="og:type" content="website" >
+<meta property="og:url" content="https://yourName.github.io" >
+<meta property="og:title" content="jyla SwiftSpin Laundry" >
+<meta property="og:description" content="We make laundry effortless with quick turnaround, expert fabric care, and affordable service. From wash-and-fold to dry cleaning, we deliver spotless clothes and peace of mind every time." >
+<meta property="og:image" content="https://yourName.github.io/images/social-prew.jpg">
+
+<!-- Tweeter Meta tags -->
+<meta property="twitter:card" content="sum-large-image" >
+<meta property="twitter:title" content="SwiftSpin Laundry Services." >
+<meta property="twitter:description" content="Fast, Fresh, Reliable Wash & fold Dry cleaning Pickup & delivery Making laundry effortless, one spin at a time." >
+<meta property="twitter:image" content="https://yourName.github.io/image/social-prew.jpg">
+
+
+
+ <!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type":"Laundry Services",
+  "name": "SwiftSpinLaundry",
+  "url": "https://yourName.github.io/index.html",
+  "logo":"https://yourName.github.io/images/seo.jpg",
+  "description":"we believe clean clothes bring confidence and comfort. ",
+  "mainEntity":{
+    "@type":{SwiftSpinLaundry}
+    "headline":"SwiftSpinLaundry"
+    "DatePublished":"2026-5-20"
+  },
+  "address":{
+    "@type":"PostalAddress",
+    "addressLocality": "Accra",
+    "addressRegion":"Greater Accra",
+    "postalCode":"233",
+    "addressCountry":"GH"
+  }
+}
+</script>
+
+ <!-- Canonical URL -->
+<link rel="canonical" href="https://yourName.github.io/index.html">
+
+<link rel="stylesheet" href="productstyle.css">
+</head>
+<body>
+
+
+    <!-- Header -->
+    <header>
+
+       <div class="Brand">
+         <h1>JylaSwiftSpinLaundry</h1>
+       </div>
+
+  <div class="nav-main">
+        <nav>
+            <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="product.html"><li>Services</li></a>
+            <!-- <a href="#service"><li>Services</li></a> -->
+            <a href=""><li>About</li></a>
+            <a href=""><li>Contact</li></a>
+            </ul>
+  
+        </nav>
+    </div>
+         
+         <div class="cart-icon" id="cartIconBtn">
+        🛒 Cart <span class="cart-count" id="cartCountBadge">0</span>
+    </div>
+
+    </header>
+
+
+     <!-- Products Grid -->
+    <div class="products-container" id="productsContainer">
+    <!-- product cards will be injected via JS with full dataset -->
+    </div>
+
+<!-- Cart Sidebar -->
+<div class="overlay" id="cartOverlay"></div>
+<div class="cart-sidebar" id="cartSidebar">
+    <div class="cart-header">
+        <h3>Your Cart 🛍️</h3>
+        <button class="close-cart" id="closeCartBtn">&times;</button>
+    </div>
+    <div class="cart-items" id="cartItemsList">
+        <div class="empty-cart-msg">Cart is empty</div>
+    </div>
+    <div class="cart-total" id="cartTotalPrice">Total: ₵0</div>
+    <button class="checkout-cart-btn" id="proceedCheckoutFromCart">Proceed to Checkout</button>
+</div>
+
+
+
+
+          <!-- form fill -->
+
+        <div id="purchaseForm" class="purchase-form">     
+    <h2>Complete your Purchase</h2>
+    <div class="product-sumary">
+        <img id="selectedProductImage" src="" alt="selected product">
+        <div>
+            <h3 id="selectedProductName"></h3>
+            <p id="selectedProductPrice"></p>
+        </div>
+    </div>
+    <form id="checkoutForm">
+        <div class="form-group"><label>Full name</label><input type="text" id="name" required></div>
+        <div class="form-group"><label>Email</label><input type="email" id="email" required></div>
+        <div class="form-group"><label>Address</label><input type="text" id="address" required></div>
+        <div class="form-group"><label>Phone</label><input type="tel" id="phone" required></div>
+        <button type="submit" class="submit-btn">Send Order via Email</button>
+    </form>
+    <div class="email-instructions"><h3>How it Works</h3><p>Clicking send opens your email client. Review & send to place order.</p></div>
+</div>
+<div id="thankYou" class="thank-you">
+    <h2>✅ Thank You For Booking Us</h2>
+    <p>Your order email has been prepared. Please check your email client and click send.</p>
+</div>
+
+
+ <!-- Footer -->
+    <footer id="contact">
+          <p>Contact Us: support@JylaSwiftSpinLaundry.com | phone: 0599033117</p>
+
+          <p> <span id="Year"></span>&copy;JylaSwiftSpinLaundry.All Rights Reserved.</p>
+    </footer>
+
+
+
+   <script src="product.js"></script>
+    
+</body>
+</html>
