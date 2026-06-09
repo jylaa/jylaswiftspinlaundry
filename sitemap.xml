@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlse xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://jylaa.github.io/jylaswiftspinlaundry/</loc>
 <lastmod>2026-01-19</lostmod>
 <changefreq>weekly</changefreq>
 <priority>1.0<priority>
 </url>
-</url>
+
+<url>
 <loc>https://jylaa.github.io/jylaswiftspinlaundry/product.html</loc>
 <lastmod>2026-01-19</lastmod>
 <changefraq>monthly</changefreq>
@@ -31,6 +32,6 @@
 <priority>0.9<priority>
 </url>
 
-</urlse>
+</urlset>
 
 
