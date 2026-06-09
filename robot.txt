@@ -1,4 +1,4 @@
 User-agent:
 Allow: /
 
-sitemap: https://github/sitemap.xml
+sitemap: https://jylaa.github.io/jylaswiftspinlaundry/
