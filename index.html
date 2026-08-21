@@ -55,7 +55,25 @@
 
 
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="Newsletter.css">
+<link rel="stylesheet" href="subscriber.css">
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+<link rel="shortcut icon" href="image/spinlogo.png" type="image/x-icon">
+
+
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="./Icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./Icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./Icons/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./Icons/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./Icons/android-chrome-512x512.png">
+<link rel="manifest" href="./manifest.json">
+
 </head>
 
 <body>
@@ -66,7 +84,12 @@
        <div class="Brand">
          <h1>SwiftSpinLaundry</h1>
        </div>
-        
+
+      <!--.Humburger.-->
+      <div class="burger" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+      </div>  
+
     <div class="nav-main">
          <nav>
             <ul>
@@ -87,11 +110,10 @@
          <div>
           <h1>We make laundry effortless with quick turnaround, expert fabric care, and affordable service.</h1>
          <p>Jylaswiftspin Laundry delivers fast, fresh, and affordable laundry care.</p>
-
-     <a href="product.html" class="cta-btn">Book Now</a>
+      <a href="product.html" class="cta-btn">Book Now</a>
        </div>
     </section>
-
+  
 
   <!-- SERVICE SECTION-->
    <section id="service" class="section">
@@ -110,42 +132,10 @@
 
    </section>
 
-    <div id="mc_embed_shell">
+    <div id="mc_embed_shell" style="display:none;">
       <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
   <style type="text/css">
-  #mc_embed_signup {
-  width: 260px !important;
-  max-width: 80% !important;
-  margin: 15px auto !important;
-  padding: 12px !important;
-  font-size: 12px !important;
-  border: 1px solid #ddd !important;
-  border-radius: 4px !important;
-  box-sizing: border-box !important;
-}
-
-#mc_embed_signup h2 {
-  font-size: 17px !important;
-  margin: 0 0 6px !important;
-}
-
-#mc_embed_signup .mc-field-group {
-  margin-bottom: 6px !important;
-}
-
-#mc_embed_signup input[type="email"],
-#mc_embed_signup input[type="text"] {
-  width: 100% !important;
-  padding: 7px !important;
-  font-size: 12px !important;
-  box-sizing: border-box !important;
-}
-
-#mc_embed_signup .button {
-  width: 100% !important;
-  padding: 7px !important;
-  font-size: 12px !important;
-}
+  
 
 </style>
 <div id="mc_embed_signup">
@@ -626,11 +616,56 @@
     });
     </script></div>
 
- <!-- Footer -->
-    <footer id="contact">
-          <p>Contact Us: support@JylaSwiftSpinLaundry.com | phone: 0599033117</p>
 
-          <p> <span id="Year"></span>&copy;JylaSwiftSpinLaundry.All Rights Reserved.</p>
+ <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+            <h3>Jyla Swift Spin Laundry</h3>
+            <p>Reliable pickup and delivery bring convenience right to your door.</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/1325151577337430"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/jylasslaundry"><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fab fa-whatsapp"></i></a>
+        
+      </div>
+     </div>
+
+                <div class="footer-section">
+                <div class="location-content">
+                <div class="address">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Abia St,Accra</p>
+                    <p><i class="fas fa-phone"></i> (+233) 5990-33117</p>
+                    <p><i class="fas fa-envelope"></i> Email: <a style="color: beige;" href="mailto:janet.amenyo@outlook.com">info@janet.amenyo@outlook.com</a></p>
+                  </div>
+                    </div>
+                </div>
+
+               <div class="footer-section">
+           <div class="hours">
+          <h3>Opening Hours</h3>
+            <p>Monday-Saturday: 10am-8pm</p>
+            <p>Sunday: 11am-6pm</p>
+         </div>
+           <button class="btn" style="margin-top: 15px;" onclick="toggleTheme()">
+          </div>
+        </div>
+
+       <hr class="footer-line" >
+            <div class="year">
+                <p class="copy">&copy; <span id="year"></span>  Jyla Swift Spin Laundry. All Rights Reserved. Powered by WiseWay MGMT <a style="color: beige;" href="mailto:janet.amenyo@outlook.com"></a></p>
+            </div>
+        </div>
     </footer>
+
+       <script src="burgerIcon.js"></script>
+       <script src="subscriber.js"></script>
+
+
 </body>
 </html>
+
